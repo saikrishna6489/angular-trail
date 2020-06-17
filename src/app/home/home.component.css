@@ -1,0 +1,23 @@
+
+.home {
+    background: url(../../assets/images/back1_03.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.home p{
+    font-size: 26px;
+    width: 367px;
+    margin: 0% 0% 0% 19%;
+    padding: 9% 0% 0% 0%;
+}
+
+.home button{
+    border: 0px;
+    color: white;
+    background-color: #115b90;
+    padding: 0.7% 2%;
+    font-size: 16px;
+    margin: 1% 0% 0% 19%;
+}

@@ -1,0 +1,21 @@
+.navsec{
+    margin-right: 80px;
+}
+.navsec ul{
+    float: right;
+    margin: 26px 0px 0px 0px;
+}
+
+.navsec ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+.navsec ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navsec ul li .active {
+    color: blue;
+}

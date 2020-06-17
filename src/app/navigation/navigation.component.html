@@ -1,0 +1,8 @@
+<div class="navsec">
+    <ul>
+        <li><a routerLink="/Home" (click)="getActiveTab('Home')"[class.active]="activetab === 'Home'">Home</a></li>
+        <li><a routerLink="/Services" (click)="getActiveTab('Services')"[class.active]="activetab === 'Services'">Services</a></li>
+        <li><a routerLink="/Contact" (click)="getActiveTab('Contact')"[class.active]="activetab === 'Contact'">Contact</a></li>
+        <li><a routerLink="/Gallery" (click)="getActiveTab('Gallery')"[class.active]="activetab === 'Gallery'">Gallery</a></li>
+    </ul>
+</div>

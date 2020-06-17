@@ -1,0 +1,36 @@
+.contact_sec{
+    padding: 43px 144px 1px 144px;
+}
+.contact_sec input{
+    padding: 1%;
+width: 45%;
+margin: 1% 1% 1% 1%;
+}
+.contact_sec textarea{
+    margin: 1% 1% 1% 1%;
+    width: 96%;
+    height: 89px;
+}
+.contact_sec button{
+    margin: 0% 0% 0% 1%;
+    border: 0px;
+    font-size: 16px;
+    color: white;
+    background: blue;
+    padding: 1% 3%;
+}
+.contact_sec h2{
+    text-align: center;
+color: blue;
+
+}
+.contact_sec p{
+    text-align: center;
+width: 88%;
+font-size: 12px;
+margin: 0% 0% 1% 6%;
+}
+.contact_sec h6{
+    text-align: center;
+    font-size: 13px;
+}

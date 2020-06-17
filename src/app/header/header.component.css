@@ -1,0 +1,12 @@
+.headersec{
+    background-color: #fff;
+    height: 66px;  
+}
+.middle{
+    margin: 0px 80px;
+}
+.headersec img{
+    float: left;
+    margin-left: 100px;
+    margin-top: 11px;
+}

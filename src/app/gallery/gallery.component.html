@@ -1,0 +1,6 @@
+<div class="gallery_sec">
+    <div class="images" *ngFor = "let item of gallery.images | paginate:{ itemsPerPage:3, currentPage: p}">
+        <a><img src="../../assets/images/gallery/{{item}}.png"></a>
+    </div>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

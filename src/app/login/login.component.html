@@ -1,0 +1,9 @@
+<div class="loginforms">
+    <form [formGroup]="Loginform" (ngSubmit)="Login(Loginform.value)">
+        <h2>login</h2>
+        <input type="email" name="" value="" placeholder="Email" formControlName="email" name="email">
+        <input type="password" name="" value="" placeholder="password" formControlName="password" name="password">
+        <p>dont you have account yet?<a routerLink="/Signup">Signup</a></p>
+        <button>login</button>
+    </form>
+</div>
