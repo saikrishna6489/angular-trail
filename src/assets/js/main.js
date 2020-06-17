@@ -1,6 +1,3 @@
-function sai(){
-    alert("hello");
-}
 
 var string="Nagendra & Sai Krishna";
 var strArray=string.split(0);
